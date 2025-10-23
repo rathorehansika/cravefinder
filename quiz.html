@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveFinder Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="quiz-page">
+  <div class="quiz-container">
+    <h2 id="question"></h2>
+    <div id="options" class="options"></div>
+    <button id="nextBtn" class="next-btn">Next</button>
+  </div>
+
+  <div id="resultContainer" class="result-container hidden">
+    <h2>Your Perfect Dish 🍽️</h2>
+    <div id="foodSuggestions" class="food-suggestions"></div>
+    <button class="restart-btn" onclick="location.href='index.html'">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
